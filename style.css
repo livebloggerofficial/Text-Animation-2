@@ -1,0 +1,36 @@
+.text-container {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  background: #032b43;
+  width: 900px;
+  margin: 100px auto;
+}
+
+.text-container h2 {
+  font-size: 80px;
+  background: #d00000;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.text-container h2 .char {
+  transform: rotateY(90deg);
+  opacity: 0;
+}
+
+.text-container p {
+  font-size: 20px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.text-container p .word {
+  transform: translateY(100px);
+  opacity: 0;
+}
